@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tutorials Guide
 
 Tutorial for the Low Altitude Disaster Imagery (LADI) dataset. This tutorial was originally forked from a [Penn State Learning Factory](https://www.lf.psu.edu/) capstone project
@@ -43,3 +44,6 @@ This documentation is about training and testing a classifier model using pre-tr
 ## Distribution Statement
 
 [BSD -Clause License](https://github.com/LADI-Dataset/ladi-tutorial/blob/master/LICENSE)
+=======
+
+>>>>>>> project-a/master
