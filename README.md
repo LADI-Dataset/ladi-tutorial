@@ -43,6 +43,3 @@ This documentation is about training and testing a classifier model using pre-tr
 ## Distribution Statement
 
 [BSD -Clause License](https://github.com/LADI-Dataset/ladi-tutorial/blob/master/LICENSE)
-=======
-
->>>>>>> project-a/master
