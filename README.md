@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tutorials Guide
 
 Tutorial for the Low Altitude Disaster Imagery (LADI) dataset. This tutorial was originally forked from a [Penn State Learning Factory](https://www.lf.psu.edu/) capstone project
