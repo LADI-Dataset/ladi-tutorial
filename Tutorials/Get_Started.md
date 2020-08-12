@@ -136,6 +136,7 @@ If you transferred LADI into your own AWS S3 bucket and prefer to not store the 
    bucket_name = 'bucket_name'
    #replace 'ladi_images_metadata.csv' with the path of the file that you want to read
    file_1_path = 'ladi_images_metadata.csv'
+   client = boto3.client('s3')
    obj_1 = client.get_object(Bucket = bucket_name, Key = file_1_path)
    image_metadata = pd.read_csv(obj_1['Body'])
    #If you are loading tsv file
@@ -166,8 +167,4 @@ plt.imshow(im, cmap='Greys_r')
 
 ## Distribution Statement
 
-<<<<<<< HEAD
 [BSD -Clause License](https://github.com/LADI-Dataset/ladi-tutorial/blob/master/LICENSE)
-=======
-[BSD -Clause License](https://github.com/LADI-Dataset/ladi-tutorial/blob/master/LICENSE)
->>>>>>> project-a/master
