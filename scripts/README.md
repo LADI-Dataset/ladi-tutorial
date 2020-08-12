@@ -81,18 +81,6 @@ Using [`apt`](https://help.ubuntu.com/lts/serverguide/apt.html), the following l
 
 The LADI team has not knowingly modified any of these packages. Any modifications to these packages shall be in compliance with their respective license and outside the scope of this repository.
 
-#### Git Submodules
-
-A [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) is a repository embedded inside another repository. The submodule has its own history; the repository it is embedded in is called a superproject. Submodules are managed by the [.gitmodules](../.gitmodules) file. However  Git doesn’t download submodule contents by default.
-
-Git submodules can be initialized, fetched, and checked out independent of the script via the command line:
-
-```git
-git submodule update --init --recursive
-```
-
-Any modifications to git submodules ([as these git commits are separate](https://git-scm.com/book/en/v2/Git-Tools-Submodules) from this repository) shall be in compliance with their respective license.
-
 ### script/setup
 
 [`script/setup`][setup] is used to set up a project in an initial state. This is typically run after an initial clone, or, to reset the project back to its initial state. This is also useful for ensuring that your bootstrapping actually works well.
