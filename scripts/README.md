@@ -28,10 +28,6 @@ The scripts need to be run in a Linux shell. For Windows 10 users, you can use [
 
 If you modify these scripts, please follow the [convention guide](https://github.com/Airspace-Encounter-Models/em-overview/blob/master/CONTRIBUTING.md#convention-guide) that specifies an end of line character of `LF (\n)`. If the end of line character is changed to `CRLF (\r)`, you will get an error like this:
 
-```bash
-./bootstrap.sh: line 2: $'\r': command not found
-```
-
 ### Proxy and Internet Access
 
 The scripts will download data using [`curl`](https://curl.haxx.se/docs/manpage.html) and [`wget`](https://manpages.ubuntu.com/manpages/trusty/man1/wget.1.html), which depending on your security policy may require a proxy.
@@ -81,7 +77,6 @@ Using [`apt`](https://help.ubuntu.com/lts/serverguide/apt.html), the following l
 
 | Package        |  Use |
 | :-------------| :--  |
-`libxml-xpath-perl` | xml parsing
 `unzip` | extracting zip archives
 
 The LADI team has not knowingly modified any of these packages. Any modifications to these packages shall be in compliance with their respective license and outside the scope of this repository.
