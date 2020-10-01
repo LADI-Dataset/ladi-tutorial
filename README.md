@@ -47,7 +47,7 @@ A set of tutorials focused on installing AWS tools and configuring AWS environme
 
 ## Tutorials - Metadata Analysis
 
-A set of tutorials are Jupyter Python 3.X notebooks that demonstrate on how to perform geospatial analysis by enhancing the LADI metadata with third party GIS information. One tutorial identifies the number of images taken within an administrative boundary (e.g. USA states) and assigns each state a color based on the number of images taken. The other tutorial filters images based on an specific annotation and performs various geospatial measurements on this subset.
+A set of tutorials that are Jupyter Python 3.X notebooks that demonstrate on how to perform geospatial analysis by enhancing the LADI metadata with third party GIS information. One tutorial identifies the number of images taken within an administrative boundary (e.g. USA states) and assigns each state a color based on the number of images taken. The other tutorial filters images based on an specific annotation and performs various geospatial measurements on this subset.
 
 - [ISO-3166-2 Administrative Boundaries](./tutorials/Geospatial-Hurricane-Analysis.ipynb)
 - [Geospatial Hurricane Analysis](./tutorials/Geospatial-Hurricane-Analysis.ipynb)
@@ -61,6 +61,12 @@ These tutorials focus on how to training and testing a classifier model using Co
 - [Fine Tuning Torchvision Models](./tutorials/Fine_Tune_Torchvision_Models.md)
 
 This documentation is about loading LADI dataset in PyTorch framework including examples of writing custom `Dataset`, `Transforms` and `Dataloader`.
+
+## Citation
+
+Please use this DOI number reference when citing the software:
+
+[![DOI](https://zenodo.org/badge/263348174.svg)](https://zenodo.org/badge/latestdoi/263348174)
 
 ## Distribution Statement
 
