@@ -12,7 +12,7 @@ geopandas == 0.6.1
 geopy == 2.0.0               
 matplotlib == 3.3.1
 numpy == 1.19.1
-pandas == 1.1.0
+pandas == 1.1.2
 path == 15.0.0        
 pyproj == 2.6.1.post1
 shapely == 1.7.0
