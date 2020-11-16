@@ -1,4 +1,4 @@
-boto3 == 1.16.4
+boto3 == 1.16.18
 contextily == 1.0.0
 contextlib2 == 0.6.0.post1
 fiona == 1.8.13
