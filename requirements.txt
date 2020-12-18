@@ -1,5 +1,5 @@
 boto3 == 1.16.39
-contextily == 1.0.0
+contextily == 1.0.1
 contextlib2 == 0.6.0.post1
 fiona == 1.8.18
 jupyter >= 1.0.0
