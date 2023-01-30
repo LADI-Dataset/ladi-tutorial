@@ -1,7 +1,7 @@
 boto3 == 1.17.22
 contextily == 1.1.0
 contextlib2 == 0.6.0.post1
-fiona == 1.8.18
+fiona == 1.9.0
 jupyter >= 1.0.0
 jupyter-client >= 6.1.6
 jupyter-console >= 6.1.0
