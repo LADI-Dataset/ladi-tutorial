@@ -1,5 +1,7 @@
 # LADI Tutorials
 
+⚠️ These tutorials are for the deprecated version 1 of LADI. See the [LADI-v2 documentation] for more up-to-date information about how to start using LADI ⚠️
+
 Tutorials for the Low Altitude Disaster Imagery (LADI) dataset. This tutorial was originally forked from a [Penn State Learning Factory](https://www.lf.psu.edu/) capstone project.
 
 - [LADI Tutorials](#ladi-tutorials)
